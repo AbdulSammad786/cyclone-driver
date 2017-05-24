@@ -16,6 +16,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Login"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Registration"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ActivationCode"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".VehicleDetails"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".DriverPersonalDetails"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".BankingDetails"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Images"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".UploadDocuments"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Home"
+            android:screenOrientation="portrait"
+            ></activity>
     </application>
 
 </manifest>

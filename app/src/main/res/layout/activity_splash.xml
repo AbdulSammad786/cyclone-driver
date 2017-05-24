@@ -5,14 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.samad786.cyclonedriver.Splash">
-
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashback"
+    >
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="C y c l o n e   DRIVER"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_centerInParent="true"
+        />
+<ProgressBar
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="20dp"
+    android:layout_centerHorizontal="true"
+    />
+</RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

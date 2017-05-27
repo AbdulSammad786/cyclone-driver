@@ -41,8 +41,6 @@ public class Registration extends AppCompatActivity {
         {
             Toast.makeText(this, "Please Provide valid info and try again", Toast.LENGTH_SHORT).show();
         }
-        finish();
-        startActivity(new Intent(this,ActivationCode.class));
     }
     public void login(View view)
     {
@@ -57,7 +55,7 @@ public class Registration extends AppCompatActivity {
             {
                 Toast.makeText(this, "Registration success", Toast.LENGTH_SHORT).show();
                 finish();
-                startActivity(new Intent(this,Home.class));
+                startActivity(new Intent(this,ActivationCode.class));
             }else
             {
                 myDialogs.showDialog("Error","Pleae try again later");
@@ -68,7 +66,6 @@ public class Registration extends AppCompatActivity {
         }
     }
     public void requestRegistration(final String url) {
-
         myDialogs.showProgress();
         StringRequest request = new StringRequest(
                 Request.Method.POST,

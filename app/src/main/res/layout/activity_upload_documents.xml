@@ -62,6 +62,7 @@
                 android:layout_height="wrap_content"
                 android:text="no file chosen"
                 android:textSize="10dp"
+                android:id="@+id/passportchoose"
                 android:layout_centerInParent="true"
                 />
                 <LinearLayout
@@ -70,6 +71,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="5dp"
+                    android:id="@+id/selectpassword"
                     android:orientation="horizontal"
                     >
                     <TextView
@@ -110,6 +112,7 @@
                     android:layout_height="wrap_content"
                     android:text="no file chosen"
                     android:textSize="10dp"
+                    android:id="@+id/proffchoose"
                     android:layout_centerInParent="true"
                     />
                 <LinearLayout
@@ -118,6 +121,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="5dp"
+                    android:id="@+id/selectproffofaddress"
                     android:orientation="horizontal"
                     >
                     <TextView
@@ -158,6 +162,7 @@
                     android:layout_height="wrap_content"
                     android:text="no file chosen"
                     android:textSize="10dp"
+                    android:id="@+id/driverlisencechoose"
                     android:layout_centerInParent="true"
                     />
                 <LinearLayout
@@ -166,6 +171,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="5dp"
+                    android:id="@+id/selectdriverlisence"
                     android:orientation="horizontal"
                     >
                     <TextView
@@ -206,6 +212,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="10dp"
+                    android:id="@+id/cardlisencechoose"
                     android:text="no file chosen"
                     android:layout_centerInParent="true"
                     />
@@ -215,6 +222,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="5dp"
+                    android:id="@+id/selectcardlisence"
                     android:orientation="horizontal"
                     >
                     <TextView

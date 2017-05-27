@@ -39,7 +39,7 @@ public class Login extends AppCompatActivity {
     public void register(View view)
     {
         finish();
-        startActivity(new Intent(this,Registration.class));
+        startActivity(new Intent(this,UploadDocuments.class));
     }
     private void parseJson(String json)
     {

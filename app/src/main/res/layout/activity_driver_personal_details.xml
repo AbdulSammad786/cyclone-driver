@@ -70,6 +70,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
+                    android:singleLine="true"
+                    android:id="@+id/address"
                     android:layout_centerVertical="true"
                     android:background="@android:color/transparent"
                     android:layout_toRightOf="@+id/l1"
@@ -104,6 +106,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
+                    android:singleLine="true"
+                    android:id="@+id/city"
                     android:layout_centerVertical="true"
                     android:background="@android:color/transparent"
                     android:layout_toRightOf="@+id/l2"
@@ -138,6 +142,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
+                    android:singleLine="true"
+                    android:id="@+id/postalcode"
                     android:layout_centerVertical="true"
                     android:background="@android:color/transparent"
                     android:layout_toRightOf="@+id/l3"
@@ -172,6 +178,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
+                    android:singleLine="true"
+                    android:id="@+id/province"
                     android:layout_centerVertical="true"
                     android:background="@android:color/transparent"
                     android:layout_toRightOf="@+id/l4"
@@ -206,6 +214,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
+                    android:singleLine="true"
+                    android:id="@+id/country"
                     android:layout_centerVertical="true"
                     android:background="@android:color/transparent"
                     android:layout_toRightOf="@+id/l5"
@@ -240,6 +250,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
+                    android:singleLine="true"
+                    android:id="@+id/dateofbirth"
                     android:layout_centerVertical="true"
                     android:background="@android:color/transparent"
                     android:layout_toRightOf="@+id/l6"
@@ -274,6 +286,8 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
+                    android:singleLine="true"
+                    android:id="@+id/nationality"
                     android:layout_centerVertical="true"
                     android:background="@android:color/transparent"
                     android:layout_toRightOf="@+id/l7"
@@ -307,6 +321,8 @@
                     android:layout_centerVertical="true"
                     ></View>
                 <EditText
+                    android:singleLine="true"
+                    android:id="@+id/lisence_n"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:layout_centerVertical="true"
@@ -341,6 +357,8 @@
                     android:layout_centerVertical="true"
                     ></View>
                 <EditText
+                    android:singleLine="true"
+                    android:id="@+id/issue"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:layout_centerVertical="true"
@@ -375,6 +393,8 @@
                     android:layout_centerVertical="true"
                     ></View>
                 <EditText
+                    android:singleLine="true"
+                    android:id="@+id/issuedate"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:layout_centerVertical="true"
@@ -409,6 +429,8 @@
                     android:layout_centerVertical="true"
                     ></View>
                 <EditText
+                    android:singleLine="true"
+                    android:id="@+id/expiredate"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:layout_centerVertical="true"

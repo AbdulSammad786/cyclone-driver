@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CycloneDriver.iml" filepath="$PROJECT_DIR$/CycloneDriver.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cyclone-driver.iml" filepath="$PROJECT_DIR$/cyclone-driver.iml" />
     </modules>
   </component>
